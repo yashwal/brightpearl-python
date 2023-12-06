@@ -26,7 +26,7 @@ class OauthConnection(object):
     @staticmethod
     def process_response(response):
         result = dict()
-        if response.status_code in [200, 201, 202]:
+        if response.status_code in [200, 201, 202, 207]:
             result = response.json()
         else:
             raise ValueError("Error while making api request: {}".format(response.text))
