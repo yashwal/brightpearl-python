@@ -20,7 +20,7 @@ class Brands(object):
             search_params = dict()
 
         return self.connection.make_request("/{}/{}?{}".format(
-            self.resource_parent, brand_list, search_params), "GET", {}, stream
+            self.resource_parent, brand_list, url_encode_params(search_params)), "GET", {}, stream
         )
 
     def get(self, brand_id):
