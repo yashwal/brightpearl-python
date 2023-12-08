@@ -12,4 +12,6 @@ from brightpearl.resources.product_price import ProductPrice # noqa F401
 from brightpearl.resources.product_supplier import ProductSupplier # noqa F401
 from brightpearl.resources.product_primary_supplier import ProductPrimarySupplier # noqa F401
 from brightpearl.resources.warehouse import Warehouse
+from brightpearl.resources.stock_correction import StockCorrection
+from brightpearl.resources.location import Location
 from brightpearl.resources.product_availibility import ProductAvailibility
