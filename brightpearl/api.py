@@ -7,7 +7,7 @@ import requests
 from brightpearl.connection import Connection, OauthConnection
 from brightpearl.resources import (  # noqa F401
     Products, Brands, ProductType, Category, Options, Collection, Season, OptionValue, CustomField,  # noqa F401
-    PriceList, ProductPrice, ProductSupplier , ProductPrimarySupplier, Warehouse, StockCorrection, Location # noqa F401
+    PriceList, ProductPrice, ProductSupplier , ProductPrimarySupplier, Warehouse, StockCorrection, Location, ProductAvailibility # noqa F401
 )  # noqa F401
 
 
