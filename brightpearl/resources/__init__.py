@@ -14,4 +14,4 @@ from brightpearl.resources.product_primary_supplier import ProductPrimarySupplie
 from brightpearl.resources.warehouse import Warehouse
 from brightpearl.resources.stock_correction import StockCorrection
 from brightpearl.resources.location import Location
-from brightpearl.resources.product_availibility import ProductAvailibility
+from brightpearl.resources.warehouse_defaults import WarehouseDefaults
