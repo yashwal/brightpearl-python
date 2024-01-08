@@ -11,3 +11,9 @@ class WarehouseDefaults(object):
             "{}/{}/{}/{}/{}".format(self.resource_parent, warehouse_get, str(warehouse_id), "product", bp_id), "PUT",
             data=reqObj
         )
+
+    def get_default_location(self, warehouse_id=None, product_id = None):
+        warehouse_get = "warehouse"
+        return self.connection.make_request(
+            "{}/{}/{}/{}/{}".format(self.resource_parent, warehouse_get, warehouse_id,"location","default"), "GET", {}
+        )
