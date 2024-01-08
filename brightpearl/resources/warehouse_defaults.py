@@ -12,7 +12,7 @@ class WarehouseDefaults(object):
             data=reqObj
         )
 
-    def get_default_location(self, warehouse_id=None, product_id = None):
+    def get_default_location(self, warehouse_id=None):
         warehouse_get = "warehouse"
         return self.connection.make_request(
             "{}/{}/{}/{}/{}".format(self.resource_parent, warehouse_get, warehouse_id,"location","default"), "GET", {}
